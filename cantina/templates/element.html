@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Element: {{ element | capitalize }}</h1>
+    </div>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Ions</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Ioneq</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Abundance</a>
+        </li>
+    </ul>
+</div>
+{% endblock %}
