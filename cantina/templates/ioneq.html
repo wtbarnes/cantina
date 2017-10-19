@@ -1,0 +1,7 @@
+{% extends "element_base.html" %}
+
+{% block content %}
+{{ super() }}
+{{ plot_div|indent(4)|safe }}
+{{ plot_script|indent(4)|safe }}
+{% endblock %}
